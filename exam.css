@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background-color: black; /* Helps white lines stand out */
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  height: 20vh;
+  display: flex;
+  border-bottom: 6px solid white; /* Vertical separator */
+}
+
+.header-box {
+  flex: 1;
+  background-color: blue;
+  border-right: 1px solid white;
+}
+
+.header-box: last-child {
+  border-right: none;
+}
+
+/* Main */
+.main {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Yellow section */
+.main-yellow {
+  height: 30vh;
+  width: 100%;
+  background-color: yellow;
+  border-bottom: 6px solid white; /* Vertical separator */
+}
+
+/* Green section */
+.main-green {
+  height: 30vh;
+  display: flex;
+}
+
+.green-box {
+  flex: 1;
+  background-color: green;
+  border-right: 1px solid white;
+}
+
+.green-box:last-child {
+  border-right: none;
+}
+
+/* Footer */
+.footer {
+  height: 20vh;
+  display: flex;
+  border-top: 6px solid white; /* Vertical separator */
+}
+
+.footer-box {
+  flex: 1;
+  background-color: red;
+  border-right: 1px solid white;
+}
+
+.footer-box:last-child {
+  border-right: none;
+}
