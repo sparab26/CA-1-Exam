@@ -15,7 +15,7 @@ html, body {
   flex-direction: column;
 }
 
-/* Header */
+
 .header {
   height: 20vh;
   display: flex;
@@ -32,7 +32,7 @@ html, body {
   border-right: none;
 }
 
-/* Main */
+
 .main {
   height: 60vh;
   display: flex;
@@ -47,7 +47,7 @@ html, body {
   border-bottom: 6px solid white; 
 }
 
-/* Green section */
+
 .main-green {
   height: 30vh;
   display: flex;
@@ -79,4 +79,5 @@ html, body {
 .footer-box:last-child {
   border-right: none;
 }
+
 
